@@ -14,8 +14,6 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 // Matching user input email and password with stored email and password in database.
 
     $result = $connection->query("SELECT * FROM cliente WHERE (Email=\"$email\" AND Password=\"$password\")");
-    echo("SELECT * FROM cliente WHERE (Email=\"$email\" AND Password=\"$password\")");
-
     $data = mysqli_num_rows($result);
     if ($data==1) {
         echo "Successfully Logged in...";
