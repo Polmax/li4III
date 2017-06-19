@@ -86,3 +86,18 @@ color: black;
 #registar:hover{
 background: linear-gradient(#4f4f4f 5%, #464646 100%);
 }
+div.errol{
+    position: relative;
+    font-size: 14px;
+    color: blue;
+}
+div.errou{
+    position: relative;
+    font-size: 14px;
+    color: red;
+}
+div.errop{
+    position: relative;
+    font-size: 14px;
+    color: red;
+}

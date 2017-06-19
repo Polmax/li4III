@@ -12,13 +12,13 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     echo "Email inválido";
 } else {
 // Matching user input email and password with stored email and password in database.
-
-    $result = $connection->query("SELECT * FROM cliente WHERE (Email=\"$email\" AND Password=\"$password\")");
+    $result = $connection->query("SELECT * FROM cliente WHERE (Email=\"$email\")");
     $data = mysqli_num_rows($result);
     if ($data==1) {
-        echo "Login efectuado com sucesso";
+        echo "Email em uso";
     } else {
-        echo "Email ou password erradas";
+        $result = $connection->query("INSERT INTO cliente (Nome,Email,Password) VALUES (\"ola2\",\"$email\",\"$password\")");
+        echo "Registo efectuado com sucesso";
     }
 }
 mysqli_close ($connection); // Connection Closed.
