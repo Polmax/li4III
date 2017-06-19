@@ -4,6 +4,7 @@ $connection =mysqli_connect("localhost", "root", "polmax", "sobrecarris"); // Es
 if (!$connection) {
     echo "Sem conexão com BD";
 }
+$nome=$_POST['nome1']; // Fetching Values from URL.
 $email=$_POST['email1']; // Fetching Values from URL.
 $password= $_POST['password1']; // Password Encryption, If you like you can also leave sha1.
 // check if e-mail address syntax is valid or not
@@ -17,7 +18,7 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     if ($data==1) {
         echo "Email em uso";
     } else {
-        $result = $connection->query("INSERT INTO cliente (Nome,Email,Password) VALUES (\"ola2\",\"$email\",\"$password\")");
+        $result = $connection->query("INSERT INTO cliente (Nome,Email,Password) VALUES (\"$nome\",\"$email\",\"$password\")");
         echo "Registo efectuado com sucesso";
     }
 }

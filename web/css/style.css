@@ -93,11 +93,13 @@ div.errol{
 }
 div.errou{
     position: relative;
+    top: -25px;
     font-size: 14px;
     color: red;
 }
 div.errop{
     position: relative;
+    top: -25px;
     font-size: 14px;
     color: red;
 }

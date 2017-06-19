@@ -1,5 +1,8 @@
 $(document).ready(function () {
     $("#login").click(function() {
+        document.getElementById("errou").innerHTML='';
+        document.getElementById("errol").innerHTML='';
+        document.getElementById("errop").innerHTML='';
         var email = $("#email").val();
         var password = $("#password").val();
         // Checking for blank fields.
