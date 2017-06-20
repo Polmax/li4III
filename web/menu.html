@@ -1,22 +1,27 @@
-<html>
+<?php
+session_start(); // 
+echo $_SESSION['username']
+?>
+    <html>
 
-<head>
-    <title>Menu</title>
-    <img src="assets/menuvec.png" alt="Menu" width="680" height="480" style="position: absolute; left:1000;top:250px">
-    <link rel="stylesheet" href="css/style.css" />
-     <link rel="stylesheet" href="css/buttonstyle.css" />
-     
 
-</head>
+    <head>
+        <title>Menu</title>
+        <img src="assets/menuvec.png" alt="Menu" width="680" height="480" style="position: absolute; left:1000;top:250px">
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/buttonstyle.css" />
 
-<body>
-    <div>
-            <button onclick="location.href = 'pesquisa.html';" type="button" id="button" class="button" >Pesquisar</button>
-            <button onclick="location.href = 'sugestao.html';" type="button" id="button" class="button" >Sugestão</button>
-            <button onclick="location.href = 'historico.html';" type="button" id="button" class="button" >Histórico</button>
-            <button onclick="location.href = 'preferencias.html';" type="button" id="button" class="button" >Preferências</button>
-    </div>
 
-</body>
+    </head>
 
-</html>
+    <body>
+        <div>
+            <button onclick="location.href = 'pesquisa.html';" type="button" id="button" class="button">Pesquisar</button>
+            <button onclick="location.href = 'sugestao.html';" type="button" id="button" class="button">Sugestão</button>
+            <button onclick="location.href = 'historico.html';" type="button" id="button" class="button">Histórico</button>
+            <button onclick="location.href = 'preferencias.html';" type="button" id="button" class="button">Preferências</button>
+        </div>
+
+    </body>
+
+    </html>

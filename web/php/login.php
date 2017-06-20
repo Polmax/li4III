@@ -1,4 +1,5 @@
 <?php
+session_start();
 $connection =mysqli_connect("localhost", "root", "polmax", "sobrecarris"); // Establishing connection with server..
 
 if (!$connection) {
@@ -16,6 +17,7 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     $result = $connection->query("SELECT * FROM cliente WHERE (Email=\"$email\" AND Password=\"$password\")");
     $data = mysqli_num_rows($result);
     if ($data==1) {
+        $_SESSION['username']=$email;
         echo "Login efectuado com sucesso";
     } else {
         echo "Email ou password erradas";

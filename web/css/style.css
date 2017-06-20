@@ -103,3 +103,12 @@ div.errop{
     font-size: 14px;
     color: red;
 }
+div.currentuser{
+    position: absolute;
+    top:2px;
+    left:800px;
+     font-family: 'Droid Serif', serif;
+    color: gray;
+    font-size: 24px;
+    
+}

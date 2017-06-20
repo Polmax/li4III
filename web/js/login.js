@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
     $("#login").click(function() {
         document.getElementById("errou").innerHTML='';
@@ -21,7 +22,7 @@ $(document).ready(function () {
                         $('input[type="text"],input[type="password"]').css({ "border": "2px solid red", "box-shadow": "0 0 3px red" });
                          document.getElementById("errop").innerHTML="Password incorreta";
                     } else if (data == 'Login efectuado com sucesso') {
-                        window.location.href = "menu.html";
+                        window.location.href = "php/menu.php";
                         $("form")[0].reset();
                         $('input[type="text"],input[type="password"]').css({ "border": "2px solid #00F5FF", "box-shadow": "0 0 5px #00F5FF" });
                     } else {
