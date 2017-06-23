@@ -2,34 +2,35 @@
 <title>Pesquisa</title>
 
 <head>
-	<link rel="stylesheet" href="css/searchbar.css" />
+    <link rel="stylesheet" href="css/searchbar.css" />
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/pesquisa.js"></script>
 </head>
 
 <body>
-	
-	<section class="glow">
-		<form action="" method="">
-			<input type="search" placeholder="O que lhe apetece comer hoje?">
-			<button>Pesquisar</button>
-		</form>
-	</section>
-	<div class="resultados">
-Taberna Belga
 
-Insólito
+    <div class="container">
+        <div class="main">
+            <form class="form" method="post" action="#">
+                <h2>Pesquisa </h2>
+                <label>campo pesquisa</label>
+                <input type="text" name="dpesquisa" id="pesquisa">
+                <input type="button" name="Pesquisa" id="pesquisar" value="Pesquisar">
+            </form>
 
-Real Taberna
-	</div>
-	<div class="dropdown">
-  <button class="dropbtn">Restaurantes</button>
-  <div class="dropdown-content">
-    <a href="#">Taberna Belga</a>
-    <a href="#">Insolito</a>
-    <a href="#">Real Taberna</a>
-  </div>
-</div>
+        </div>
+
+        <div class="resultados" id="resultados">
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Restaurantes</button>
+            <div class="dropdown-content">
+                <a href="#">Taberna Belga</a>
+                <a href="#">Insolito</a>
+                <a href="#">Real Taberna</a>
+            </div>
+        </div>
 </body>
 
 </html>

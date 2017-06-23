@@ -1,0 +1,6 @@
+SELECT l.nome FROM sobrecarris.prato as p 
+	inner join prato_local as pl
+		on pl.Prato_Id=p.Id
+	inner join local as l
+		on l.Id=pl.Local_Id
+where (p.Nome="Francesinha");
