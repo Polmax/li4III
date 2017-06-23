@@ -8,7 +8,12 @@ $(document).ready(function() {
                     alert(data);
                 } else {
                     document.getElementById("resultados").innerHTML = data;
-
+                    var a = document.createElement('a');
+                    var linkText = document.createTextNode(data);
+                    a.appendChild(linkText);
+                    a.title = data;
+                    a.href = "restaurante.html";
+                    document.getElementById("dp").appendChild(a);
                 }
             });
     });

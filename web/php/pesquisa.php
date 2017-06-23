@@ -9,8 +9,9 @@ $result = $connection->query("SELECT l.nome FROM sobrecarris.prato as p inner jo
 $data = mysqli_num_rows($result);
 
 if ($data>0) {
-    while($row = mysqli_fetch_row($result)){
-    printf ("%s\n", $row[0]);
-    }
+   while($row = mysqli_fetch_row($result)){
+      printf("%s\n",$row[0]);
+   }
+
 }
 else echo "Prato não encontrado";
