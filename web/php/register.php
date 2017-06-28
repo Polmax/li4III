@@ -1,8 +1,12 @@
 <?php
-$connection =mysqli_connect("localhost", "root", "polmax", "sobrecarris"); // Establishing connection with server..
+session_start();
+$serverName="DESKTOP-ORC4LBG";
+$connectionInfo = array( "Database"=>"Ambrosio", "UID"=>"pauloalves", "PWD"=>"polmax225080");
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
 
-if (!$connection) {
+if (!$conn) {
     echo "Sem conexão com BD";
+    die;
 }
 $nome=$_POST['nome1']; // Fetching Values from URL.
 $email=$_POST['email1']; // Fetching Values from URL.
@@ -13,13 +17,13 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     echo "Email inválido";
 } else {
 // Matching user input email and password with stored email and password in database.
-    $result = $connection->query("SELECT * FROM cliente WHERE (Email=\"$email\")");
-    $data = mysqli_num_rows($result);
-    if ($data==1) {
+    $result = sqlsrv_query($conn,"SELECT * FROM Ambrosio.Cliente WHERE (Email='$email')");
+    if ($result===true) {
         echo "Email em uso";
     } else {
-        $result = $connection->query("INSERT INTO cliente (Nome,Email,Password) VALUES (\"$nome\",\"$email\",\"$password\")");
+        $result = sqlsrv_query($conn,"INSERT INTO Ambrosio.Cliente (Nome,Email,Password) VALUES ('$nome','$email','$password')");
+        $_SESSION['username']=$email;
         echo "Registo efectuado com sucesso";
     }
 }
-mysqli_close ($connection); // Connection Closed.
+sqlsrv_close ($conn); // Connection Closed.
