@@ -12,7 +12,7 @@ $(document).ready(function() {
                     var linkText = document.createTextNode(data);
                     a.appendChild(linkText);
                     a.title = data;
-                    a.href = "restaurante.html";
+                    a.href = "../php/restaurante.php";
                     document.getElementById("dp").appendChild(a);
                 }
             });

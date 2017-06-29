@@ -1,114 +1,167 @@
 /* Below line is used for online Google font */
+
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif);
-h1{
+h1 {
     position: absolute;
     top: 10px;
     left: 12px;
 }
-h2{
-text-align: left;
-font-size: 24px;
+
+h2 {
+    text-align: left;
+    font-size: 24px;
 }
-h6{
+
+h6 {
     position: absolute;
-    top : 590px;
+    top: 590px;
     left: 1010px;
     font-family: 'Droid Serif', serif;
     color: gray;
     font-size: 24px;
 }
-hr{
-margin-bottom: 30px;
+
+hr {
+    margin-bottom: 30px;
 }
-div.container{
-width: 0px;
-height: 0px;
-margin:0px auto;
-font-family: 'Droid Serif', serif;
-position:relative;
+
+div.container {
+    width: 0px;
+    height: 0px;
+    margin: 0px auto;
+    font-family: 'Droid Serif', serif;
+    position: relative;
 }
-div.main{
-width: 720px;
-margin-top: 400px;
-float:right;
-padding: 100px 55px 40px;
-background-color: rgba("white");
-font-size: 13px;
+
+div.main {
+    width: 720px;
+    margin-top: 400px;
+    float: right;
+    padding: 100px 55px 40px;
+    background-color: rgba("white");
+    font-size: 13px;
 }
-input[type=text],[type=password] {
-width: 99%;
-height: 45px;
-padding-left: 5px;
-margin-bottom: 30px;
-margin-top: 8px;
-box-shadow: 0 0 5px #464646;
-border: 5px solid #464646;
-color: #4f4f4f;
-font-size: 16px;
+
+input[type=text],
+[type=password] {
+    width: 99%;
+    height: 45px;
+    padding-left: 5px;
+    margin-bottom: 30px;
+    margin-top: 8px;
+    box-shadow: 0 0 5px #464646;
+    border: 5px solid #464646;
+    color: #4f4f4f;
+    font-size: 16px;
 }
-label{
-color: #464646;
-text-shadow: 0 1px 0 #fff;
-font-size: 14px;
-font-weight: bold;
+
+label {
+    color: #464646;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 14px;
+    font-weight: bold;
 }
+
 #login {
-width: 25%;
-background: white;
-border: 1px solid #0F799E;
-font-size: 20px;
-margin-top: 15px;
-padding: 8px;
-font-weight: bold;
-cursor: pointer;
-color: black;
+    width: 25%;
+    background: white;
+    border: 1px solid #0F799E;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
 }
-#login:hover{
-background: linear-gradient(#4f4f4f 5%, #464646 100%);
+
+#login:hover {
+    background: linear-gradient(#4f4f4f 5%, #464646 100%);
 }
-label{
-color: #464646;
-text-shadow: 0 1px 0 #fff;
-font-size: 14px;
-font-weight: bold;
+
+label {
+    color: #464646;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 14px;
+    font-weight: bold;
 }
+
 #registar {
-width: 25%;
-background: white;
-border: 1px solid #0F799E;
-font-size: 20px;
-margin-top: 15px;
-padding: 8px;
-font-weight: bold;
-cursor: pointer;
-color: black;
+    width: 25%;
+    background: white;
+    border: 1px solid #0F799E;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
 }
-#registar:hover{
-background: linear-gradient(#4f4f4f 5%, #464646 100%);
+
+#registar:hover {
+    background: linear-gradient(#4f4f4f 5%, #464646 100%);
 }
-div.errol{
+
+div.errol {
     position: relative;
     font-size: 14px;
     color: blue;
 }
-div.errou{
+
+div.errou {
     position: relative;
     top: -25px;
     font-size: 14px;
     color: red;
 }
-div.errop{
+
+div.errop {
     position: relative;
     top: -25px;
     font-size: 14px;
     color: red;
 }
-div.currentuser{
+
+div.currentuser {
     position: absolute;
-    top:2px;
-    left:800px;
-     font-family: 'Droid Serif', serif;
+    top: 2px;
+    left: 800px;
+    font-family: 'Droid Serif', serif;
     color: gray;
     font-size: 24px;
-    
+}
+
+.prato {
+    position: absolute;
+    left: 900px;
+    top: 300px;
+    font-size: 30px;
+    font-family: 'Droid Serif', serif;
+    color: gray;
+}
+
+.descricao {
+    position: absolute;
+    left: 900px;
+    top: 400px;
+    font-size: 30px;
+    font-family: 'Droid Serif', serif;
+    color: gray;
+}
+
+.nprato {
+    position: absolute;
+    left: 900px;
+    top: 335px;
+    font-size: 20px;
+    font-family: 'Droid Serif', serif;
+    color: gray;
+}
+
+.dprato {
+    position: absolute;
+    left: 900px;
+    top: 435px;
+    font-size: 20px;
+    font-family: 'Droid Serif', serif;
+    color: gray;
 }
