@@ -1,0 +1,173 @@
+{
+    "meta": {
+        "code": 200,
+        "requestId": "5954b348dd579734567c8dbf"
+    },
+    "response": {
+        "venues": [{
+                "id": "4e71ea4ad4c0f5c14975d289",
+                "name": "Bacalhau À Narcisa",
+                "contact": {},
+                "location": {
+                    "address": "R. de S. Domingos, 132",
+                    "lat": 41.5575121366625,
+                    "lng": -8.414947986602783,
+                    "labeledLatLngs": [{
+                        "label": "display",
+                        "lat": 41.5575121366625,
+                        "lng": -8.414947986602783
+                    }],
+                    "distance": 2251,
+                    "cc": "PT",
+                    "city": "Braga",
+                    "state": "Braga",
+                    "country": "Portugal",
+                    "formattedAddress": [
+                        "R. de S. Domingos, 132",
+                        "Braga",
+                        "Portugal"
+                    ]
+                },
+                "categories": [{
+                    "id": "4bf58dd8d48988d1c4941735",
+                    "name": "Restaurante",
+                    "pluralName": "Restaurantes",
+                    "shortName": "Restaurante",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 45,
+                    "usersCount": 22,
+                    "tipCount": 0
+                },
+                "allowMenuUrlEdit": true,
+                "beenHere": {
+                    "lastCheckinExpiredAt": 0
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Não há ninguém aqui",
+                    "groups": []
+                },
+                "referralId": "v-1498723144",
+                "venueChains": [],
+                "hasPerk": false
+            },
+            {
+                "id": "4fd8be23e4b0b75520b22b6e",
+                "name": "super bacalhau",
+                "contact": {},
+                "location": {
+                    "lat": 41.544105529785156,
+                    "lng": -8.418458938598633,
+                    "labeledLatLngs": [{
+                        "label": "display",
+                        "lat": 41.544105529785156,
+                        "lng": -8.418458938598633
+                    }],
+                    "distance": 3333,
+                    "cc": "PT",
+                    "country": "Portugal",
+                    "formattedAddress": [
+                        "Portugal"
+                    ]
+                },
+                "categories": [{
+                    "id": "4bf58dd8d48988d1fa941735",
+                    "name": "Feira Livre",
+                    "pluralName": "Feiras Livres",
+                    "shortName": "Feira Livre",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_farmersmarket_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 2,
+                    "usersCount": 2,
+                    "tipCount": 0
+                },
+                "allowMenuUrlEdit": true,
+                "beenHere": {
+                    "lastCheckinExpiredAt": 0
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Não há ninguém aqui",
+                    "groups": []
+                },
+                "referralId": "v-1498723144",
+                "venueChains": [],
+                "hasPerk": false
+            },
+            {
+                "id": "4da05b22bcc4a0934cf70dc9",
+                "name": "O Bacalhau",
+                "contact": {},
+                "location": {
+                    "lat": 41.54948621218515,
+                    "lng": -8.430505623715117,
+                    "labeledLatLngs": [{
+                        "label": "display",
+                        "lat": 41.54948621218515,
+                        "lng": -8.430505623715117
+                    }],
+                    "distance": 3803,
+                    "cc": "PT",
+                    "country": "Portugal",
+                    "formattedAddress": [
+                        "Portugal"
+                    ]
+                },
+                "categories": [{
+                    "id": "4bf58dd8d48988d1c4941735",
+                    "name": "Restaurante",
+                    "pluralName": "Restaurantes",
+                    "shortName": "Restaurante",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 117,
+                    "usersCount": 55,
+                    "tipCount": 1
+                },
+                "allowMenuUrlEdit": true,
+                "beenHere": {
+                    "lastCheckinExpiredAt": 0
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Não há ninguém aqui",
+                    "groups": []
+                },
+                "referralId": "v-1498723144",
+                "venueChains": [],
+                "hasPerk": false
+            }
+        ]
+    }
+}

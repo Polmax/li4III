@@ -1,0 +1,680 @@
+{
+    "meta": {
+        "code": 200,
+        "requestId": "5954b392dd57973454aed17a"
+    },
+    "response": {
+        "venues": [{
+                "id": "57010a4c498ea7873abe9399",
+                "name": "Pizza Hut",
+                "contact": {
+                    "twitter": "pizzahutpt",
+                    "facebook": "135799316454338",
+                    "facebookUsername": "pizzahutportugal",
+                    "facebookName": "Pizza Hut"
+                },
+                "location": {
+                    "address": "C. C. Nova Arcada, Lj. 2.17",
+                    "crossStreet": "Av. de Lamas, 100",
+                    "lat": 41.578424,
+                    "lng": -8.430323,
+                    "labeledLatLngs": [{
+                        "label": "display",
+                        "lat": 41.578424,
+                        "lng": -8.430323
+                    }],
+                    "distance": 3683,
+                    "postalCode": "4700-232",
+                    "cc": "PT",
+                    "city": "Braga",
+                    "state": "Braga",
+                    "country": "Portugal",
+                    "formattedAddress": [
+                        "C. C. Nova Arcada, Lj. 2.17 (Av. de Lamas, 100)",
+                        "4700-232 Braga",
+                        "Portugal"
+                    ]
+                },
+                "categories": [{
+                    "id": "4bf58dd8d48988d1ca941735",
+                    "name": "Pizzaria",
+                    "pluralName": "Pizzarias",
+                    "shortName": "Pizza",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 8,
+                    "usersCount": 8,
+                    "tipCount": 0
+                },
+                "url": "http://www.pizzahut.pt",
+                "allowMenuUrlEdit": true,
+                "beenHere": {
+                    "lastCheckinExpiredAt": 0
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Não há ninguém aqui",
+                    "groups": []
+                },
+                "referralId": "v-1498723218",
+                "venueChains": [{
+                    "id": "556f5631bd6a75a99036aba1"
+                }],
+                "hasPerk": false
+            },
+            {
+                "id": "4c0abcd9ffb8c9b640226c61",
+                "name": "Pizza Hut",
+                "contact": {
+                    "phone": "+351222444222",
+                    "formattedPhone": "+351 22 244 4222",
+                    "twitter": "pizzahutpt",
+                    "facebook": "135799316454338",
+                    "facebookUsername": "pizzahutportugal",
+                    "facebookName": "Pizza Hut"
+                },
+                "location": {
+                    "address": "Braga Parque",
+                    "crossStreet": "Qta. dos Congregados",
+                    "lat": 41.558547776885995,
+                    "lng": -8.406128883361816,
+                    "labeledLatLngs": [{
+                        "label": "display",
+                        "lat": 41.558547776885995,
+                        "lng": -8.406128883361816
+                    }],
+                    "distance": 1536,
+                    "postalCode": "4710-427",
+                    "cc": "PT",
+                    "city": "Braga",
+                    "state": "Braga",
+                    "country": "Portugal",
+                    "formattedAddress": [
+                        "Braga Parque (Qta. dos Congregados)",
+                        "4710-427 Braga",
+                        "Portugal"
+                    ]
+                },
+                "categories": [{
+                    "id": "4bf58dd8d48988d1ca941735",
+                    "name": "Pizzaria",
+                    "pluralName": "Pizzarias",
+                    "shortName": "Pizza",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 346,
+                    "usersCount": 193,
+                    "tipCount": 1
+                },
+                "url": "http://www.pizzahut.pt",
+                "allowMenuUrlEdit": true,
+                "beenHere": {
+                    "lastCheckinExpiredAt": 0
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Não há ninguém aqui",
+                    "groups": []
+                },
+                "referralId": "v-1498723218",
+                "venueChains": [{
+                    "id": "556f5631bd6a75a99036aba1"
+                }],
+                "hasPerk": false
+            },
+            {
+                "id": "4c43297ace54e21e59a50d1a",
+                "name": "Pizzaria Celeste",
+                "contact": {},
+                "location": {
+                    "address": "Av. da Liberdade",
+                    "lat": 41.550951,
+                    "lng": -8.422757,
+                    "labeledLatLngs": [{
+                        "label": "display",
+                        "lat": 41.550951,
+                        "lng": -8.422757
+                    }],
+                    "distance": 3157,
+                    "cc": "PT",
+                    "city": "Braga",
+                    "state": "Braga",
+                    "country": "Portugal",
+                    "formattedAddress": [
+                        "Av. da Liberdade",
+                        "Braga",
+                        "Portugal"
+                    ]
+                },
+                "categories": [{
+                    "id": "4bf58dd8d48988d1ca941735",
+                    "name": "Pizzaria",
+                    "pluralName": "Pizzarias",
+                    "shortName": "Pizza",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 187,
+                    "usersCount": 135,
+                    "tipCount": 4
+                },
+                "allowMenuUrlEdit": true,
+                "beenHere": {
+                    "lastCheckinExpiredAt": 0
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Não há ninguém aqui",
+                    "groups": []
+                },
+                "referralId": "v-1498723218",
+                "venueChains": [],
+                "hasPerk": false
+            },
+            {
+                "id": "4eeceb1b1081141e944cd721",
+                "name": "Pizzaria de Gualtar",
+                "contact": {
+                    "phone": "+351253677764",
+                    "formattedPhone": "+351 253 677 764"
+                },
+                "location": {
+                    "address": "R. Oliveiras Lj 4 - Gualtar",
+                    "lat": 41.566800192720216,
+                    "lng": -8.385883569717407,
+                    "labeledLatLngs": [{
+                        "label": "display",
+                        "lat": 41.566800192720216,
+                        "lng": -8.385883569717407
+                    }],
+                    "distance": 384,
+                    "postalCode": "4710-088",
+                    "cc": "PT",
+                    "city": "Braga",
+                    "state": "Braga",
+                    "country": "Portugal",
+                    "formattedAddress": [
+                        "R. Oliveiras Lj 4 - Gualtar",
+                        "4710-088 Braga",
+                        "Portugal"
+                    ]
+                },
+                "categories": [{
+                    "id": "4bf58dd8d48988d1ca941735",
+                    "name": "Pizzaria",
+                    "pluralName": "Pizzarias",
+                    "shortName": "Pizza",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 10,
+                    "usersCount": 4,
+                    "tipCount": 0
+                },
+                "allowMenuUrlEdit": true,
+                "beenHere": {
+                    "lastCheckinExpiredAt": 0
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Não há ninguém aqui",
+                    "groups": []
+                },
+                "referralId": "v-1498723218",
+                "venueChains": [],
+                "hasPerk": false
+            },
+            {
+                "id": "5065f367e4b0166baddb03e9",
+                "name": "Pizza Mais",
+                "contact": {},
+                "location": {
+                    "address": "Rua Conselheiro Lobato",
+                    "lat": 41.54329248337803,
+                    "lng": -8.421192169189453,
+                    "labeledLatLngs": [{
+                        "label": "display",
+                        "lat": 41.54329248337803,
+                        "lng": -8.421192169189453
+                    }],
+                    "distance": 3560,
+                    "cc": "PT",
+                    "city": "Braga",
+                    "state": "Braga",
+                    "country": "Portugal",
+                    "formattedAddress": [
+                        "Rua Conselheiro Lobato",
+                        "Braga",
+                        "Portugal"
+                    ]
+                },
+                "categories": [{
+                    "id": "4bf58dd8d48988d1ca941735",
+                    "name": "Pizzaria",
+                    "pluralName": "Pizzarias",
+                    "shortName": "Pizza",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 2,
+                    "usersCount": 1,
+                    "tipCount": 0
+                },
+                "allowMenuUrlEdit": true,
+                "beenHere": {
+                    "lastCheckinExpiredAt": 0
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Não há ninguém aqui",
+                    "groups": []
+                },
+                "referralId": "v-1498723218",
+                "venueChains": [],
+                "hasPerk": false
+            },
+            {
+                "id": "4cc34323b2beb1f7f089154c",
+                "name": "Pizza Hut",
+                "contact": {
+                    "phone": "+351222444222",
+                    "formattedPhone": "+351 22 244 4222",
+                    "twitter": "pizzahutpt",
+                    "facebook": "135799316454338",
+                    "facebookUsername": "pizzahutportugal",
+                    "facebookName": "Pizza Hut"
+                },
+                "location": {
+                    "address": "Minho Center, Lj. 4",
+                    "crossStreet": "Av. Robert Smith",
+                    "lat": 41.54015868074002,
+                    "lng": -8.40103268623352,
+                    "labeledLatLngs": [{
+                        "label": "display",
+                        "lat": 41.54015868074002,
+                        "lng": -8.40103268623352
+                    }],
+                    "distance": 2923,
+                    "postalCode": "4715-249",
+                    "cc": "PT",
+                    "city": "Braga",
+                    "state": "Braga",
+                    "country": "Portugal",
+                    "formattedAddress": [
+                        "Minho Center, Lj. 4 (Av. Robert Smith)",
+                        "4715-249 Braga",
+                        "Portugal"
+                    ]
+                },
+                "categories": [{
+                    "id": "4bf58dd8d48988d1ca941735",
+                    "name": "Pizzaria",
+                    "pluralName": "Pizzarias",
+                    "shortName": "Pizza",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 189,
+                    "usersCount": 105,
+                    "tipCount": 4
+                },
+                "url": "http://www.pizzahut.pt",
+                "allowMenuUrlEdit": true,
+                "beenHere": {
+                    "lastCheckinExpiredAt": 0
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Não há ninguém aqui",
+                    "groups": []
+                },
+                "referralId": "v-1498723218",
+                "venueChains": [{
+                    "id": "556f5631bd6a75a99036aba1"
+                }],
+                "hasPerk": false
+            },
+            {
+                "id": "51cc9530498e5ad92c744724",
+                "name": "Pizzaria das Fontes",
+                "contact": {},
+                "location": {
+                    "lat": 41.55793902649071,
+                    "lng": -8.41878914787341,
+                    "labeledLatLngs": [{
+                        "label": "display",
+                        "lat": 41.55793902649071,
+                        "lng": -8.41878914787341
+                    }],
+                    "distance": 2535,
+                    "cc": "PT",
+                    "country": "Portugal",
+                    "formattedAddress": [
+                        "Portugal"
+                    ]
+                },
+                "categories": [{
+                    "id": "4bf58dd8d48988d1ca941735",
+                    "name": "Pizzaria",
+                    "pluralName": "Pizzarias",
+                    "shortName": "Pizza",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 18,
+                    "usersCount": 15,
+                    "tipCount": 1
+                },
+                "allowMenuUrlEdit": true,
+                "beenHere": {
+                    "lastCheckinExpiredAt": 0
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Não há ninguém aqui",
+                    "groups": []
+                },
+                "referralId": "v-1498723218",
+                "venueChains": [],
+                "hasPerk": false
+            },
+            {
+                "id": "4e2c30b2483bb05f05a5cf87",
+                "name": "Pizzaria Celeste",
+                "contact": {},
+                "location": {
+                    "lat": 41.55368757202341,
+                    "lng": -8.423752897146688,
+                    "labeledLatLngs": [{
+                        "label": "display",
+                        "lat": 41.55368757202341,
+                        "lng": -8.423752897146688
+                    }],
+                    "distance": 3093,
+                    "cc": "PT",
+                    "country": "Portugal",
+                    "formattedAddress": [
+                        "Portugal"
+                    ]
+                },
+                "categories": [{
+                    "id": "4bf58dd8d48988d1ca941735",
+                    "name": "Pizzaria",
+                    "pluralName": "Pizzarias",
+                    "shortName": "Pizza",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 18,
+                    "usersCount": 18,
+                    "tipCount": 0
+                },
+                "allowMenuUrlEdit": true,
+                "beenHere": {
+                    "lastCheckinExpiredAt": 0
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Não há ninguém aqui",
+                    "groups": []
+                },
+                "referralId": "v-1498723218",
+                "venueChains": [],
+                "hasPerk": false
+            },
+            {
+                "id": "4df3b39a88772e1f8154c801",
+                "name": "Pizzaria Isa",
+                "contact": {},
+                "location": {
+                    "lat": 41.558568,
+                    "lng": -8.43562,
+                    "labeledLatLngs": [{
+                        "label": "display",
+                        "lat": 41.558568,
+                        "lng": -8.43562
+                    }],
+                    "distance": 3878,
+                    "cc": "PT",
+                    "city": "Braga",
+                    "state": "Braga",
+                    "country": "Portugal",
+                    "formattedAddress": [
+                        "Braga",
+                        "Portugal"
+                    ]
+                },
+                "categories": [{
+                    "id": "4bf58dd8d48988d1ca941735",
+                    "name": "Pizzaria",
+                    "pluralName": "Pizzarias",
+                    "shortName": "Pizza",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 57,
+                    "usersCount": 16,
+                    "tipCount": 0
+                },
+                "allowMenuUrlEdit": true,
+                "beenHere": {
+                    "lastCheckinExpiredAt": 0
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Não há ninguém aqui",
+                    "groups": []
+                },
+                "referralId": "v-1498723218",
+                "venueChains": [],
+                "hasPerk": false
+            },
+            {
+                "id": "4d9b723a913a236a1e909f08",
+                "name": "Dieci",
+                "contact": {
+                    "phone": "+351253616110",
+                    "formattedPhone": "+351 253 616 110"
+                },
+                "location": {
+                    "address": "R. dos Barbosas, 149",
+                    "lat": 41.54412760310291,
+                    "lng": -8.41529130935669,
+                    "labeledLatLngs": [{
+                        "label": "display",
+                        "lat": 41.54412760310291,
+                        "lng": -8.41529130935669
+                    }],
+                    "distance": 3148,
+                    "postalCode": "4715-267",
+                    "cc": "PT",
+                    "city": "Braga",
+                    "state": "Braga",
+                    "country": "Portugal",
+                    "formattedAddress": [
+                        "R. dos Barbosas, 149",
+                        "4715-267 Braga",
+                        "Portugal"
+                    ]
+                },
+                "categories": [{
+                    "id": "4bf58dd8d48988d1ca941735",
+                    "name": "Pizzaria",
+                    "pluralName": "Pizzarias",
+                    "shortName": "Pizza",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 198,
+                    "usersCount": 99,
+                    "tipCount": 3
+                },
+                "allowMenuUrlEdit": true,
+                "beenHere": {
+                    "lastCheckinExpiredAt": 0
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Não há ninguém aqui",
+                    "groups": []
+                },
+                "referralId": "v-1498723218",
+                "venueChains": [],
+                "hasPerk": false
+            },
+            {
+                "id": "563a6e10cd1071d1c897388a",
+                "name": "Maria Farinha - Pizzaria Artesanal",
+                "contact": {
+                    "phone": "+351253622222",
+                    "formattedPhone": "+351 253 622 222"
+                },
+                "location": {
+                    "address": "Rua Ambrósio dos Santos, 18",
+                    "lat": 41.544893,
+                    "lng": -8.40258,
+                    "labeledLatLngs": [{
+                        "label": "display",
+                        "lat": 41.544893,
+                        "lng": -8.40258
+                    }],
+                    "distance": 2481,
+                    "cc": "PT",
+                    "city": "Braga",
+                    "state": "Braga",
+                    "country": "Portugal",
+                    "formattedAddress": [
+                        "Rua Ambrósio dos Santos, 18",
+                        "Braga",
+                        "Portugal"
+                    ]
+                },
+                "categories": [{
+                    "id": "4bf58dd8d48988d1ca941735",
+                    "name": "Pizzaria",
+                    "pluralName": "Pizzarias",
+                    "shortName": "Pizza",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 40,
+                    "usersCount": 21,
+                    "tipCount": 1
+                },
+                "allowMenuUrlEdit": true,
+                "beenHere": {
+                    "lastCheckinExpiredAt": 0
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Não há ninguém aqui",
+                    "groups": []
+                },
+                "referralId": "v-1498723218",
+                "venueChains": [],
+                "hasPerk": false
+            }
+        ]
+    }
+}

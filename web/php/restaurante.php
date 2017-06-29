@@ -10,7 +10,7 @@ if (!$conn) {
     die;
 }
 
-$_SESSION['idlocal']=355;
+$_SESSION['idlocal']=1319;
 $local=$_SESSION['idlocal'];
 $resultla = sqlsrv_query($conn, "SELECT Latitude FROM Ambrosio.Local where (Id=$local)");
             sqlsrv_fetch($resultla);

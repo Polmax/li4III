@@ -34,17 +34,28 @@ foreach ($items as $item) {
     } else {
         $social = '';
     }
+
     $comentario=$item['tips'][0]['text'];
+    $params = array();
+    $options =  array( "Scrollable" => SQLSRV_CURSOR_KEYSET );
+    $existe = sqlsrv_query($conn,"select * from Ambrosio.Local where(Nome='$nome')",$params,$options);
 
+    $numeror=sqlsrv_num_rows($existe);
+
+    if($numeror==0){
+        echo "a inserir";
     $inserirLocal = sqlsrv_query($conn,"insert into Ambrosio.Local(Nome,Morada,Latitude,Longitude) values('$nome','$morada',$lat,$lng)");
-
+ 
+    }
     $buscarId = sqlsrv_query($conn,"select Local.Id from Ambrosio.Local where(Nome='$nome')");
     sqlsrv_fetch( $buscarId );
     $idLocal = sqlsrv_get_field( $buscarId, 0);
-    echo "$idLocal\n";
+   // echo "$idLocal\n";
     $inserircontactos= sqlsrv_query($conn,"insert into Ambrosio.Contactos(Tlm,Email,Fixo,Social,Local_Id) values('$telefone','','$telefone','$social',$idLocal)");
     
-    echo "insert into Ambrosio.Contactos(Tlm,Email,Fixo,Social,Local_Id) values('$telefone','','$telefone','$social',$idLocal)\n";
+    //echo "insert into Ambrosio.Contactos(Tlm,Email,Fixo,Social,Local_Id) values('$telefone','','$telefone','$social',$idLocal)\n";
+    
+    
     $result = sqlsrv_query($conn,"insert into Ambrosio.Prato_Local(Preco,Prato_Id,Local_Id) values('$preco',0,$idLocal)");
 
     /*
