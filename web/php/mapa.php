@@ -27,15 +27,19 @@
         var userMarker = new google.maps.Marker({
             position: myLatLng,
             map: map,
+            title : "PosActual"
         });
         var rMarker = new google.maps.Marker({
             position: rll,
             map: map,
+            title : "Restaurante"
         });
+        
       }
 
      function fail(){
          alert('navigator.geolocation failed, may not be supported');
      }
+
     </script>
 </html>

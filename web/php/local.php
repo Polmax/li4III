@@ -12,9 +12,14 @@ if (!$conn) {
 ?>
     <!DOCTYPE html>
     <head>
-    <link rel="stylesheet" href="../css/style.css" />
-    </head>
- <body>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBKCBxM6X5I1L5jsU8J4MlnvXImTbr8o4&sensor=false"></script>
+    <style>
+    html, body, #map_canvas{width:90%;height:90%;}
+    </style>
+  </head>
+     <body onload="locate()">
+    <div id="map_canvas"></div>
+  </body>
      </div>
            <label class="nl" >Nome do restaurante :</label>
             <div class="nl"><?php
@@ -48,27 +53,40 @@ if (!$conn) {
             print(sqlsrv_get_field($resultlo, 0));
             ?>
 
-    <div id="map" style="width:1800px;height:800px;background:yellow"></div>
-
     <script>
-        function myMap() {
-            var lat = <?php echo $_SESSION['latitude']; ?>;
-            var long= <?php echo $_SESSION['longitude']; ?>;
+    function locate(){
+        navigator.geolocation.getCurrentPosition(initialize,fail);
+    }
 
-            print(lat);
-            var mapOptions = {
+    function initialize(position) {
+        var lat = <?php echo $_SESSION['latitude']; ?>;
+        var long= <?php echo $_SESSION['longitude']; ?>;
+        var myLatLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+         var rll = new google.maps.LatLng(lat,long);
+        var mapOptions = {
                 center: new google.maps.LatLng(lat,long),
                 zoom: 10,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             }
-            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-            var myLatlng = new google.maps.LatLng(lat,long);
-            var marker = new google.maps.Marker({
-                position: myLatlng,
-                map: map,
-                title: "local"
-            });
-        }
+        var map = new google.maps.Map(document.getElementById('map_canvas'),
+                                      mapOptions);
+        var userMarker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title : "PosActual"
+        });
+        var rMarker = new google.maps.Marker({
+            position: rll,
+            map: map,
+            title : "Restaurante"
+        });
+        
+      }
+
+     function fail(){
+         alert('navigator.geolocation failed, may not be supported');
+     }
+
     </script>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBKCBxM6X5I1L5jsU8J4MlnvXImTbr8o4&callback=myMap"></script>
